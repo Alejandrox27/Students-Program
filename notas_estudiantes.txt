@@ -1,0 +1,23 @@
+Programa lista de estudiantes:
+
+Un colegio nos pide realizar un Programa con las siguientes caracteristicas para 
+la información de estudiantes.
+
+los parametros que nos piden para la realización de esta son los siguientes:
+
+1. Agregar estudiantes (id, nombre)
+2. Agregar notas a estudiantes
+3. Eliminar estudiantes retirados
+4. top 5 de mejores estudiantes
+5. Buscar un estudiante por su codigo
+
+Puntos importantes:
+- Guardar información de los estudiantes en un archivo .Pickle
+- Sí tiene 5 notas agregar una información del estudiantes indicando si pasó
+  o no el año
+
+Solición:
+
+1. lista (donde hay un diccionario {'id': 10, 'nombre': estudiantes})
+2. Agregar una lista al diccionario donde se pongan las notas del estudiante.
+   ({'id': 10, 'nombre': estudiantes, 'Notas': [notas]})
